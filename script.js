@@ -1,24 +1,23 @@
 // task 1
-/*for (var i = 1; i <= 100; i++) {
+for (var i = 1; i <= 100; i++) {
 	console.log(i);
-	}*/
+	}
 
 
 
 // task 2
-// 	var n = prompt();
-// 	var a, b;
-// 	a = 1;
+ var n = prompt('Факториал числа');
+ var a=1, b;
 
-// for (var i = 1; i <= n; i++) {
-// 	a = a * i;
-// }
+ 	for (var i = 1; i <= n; i++) {
+ 		a = a * i;
+	}
 
-//  alert(a);
+	alert(a);
 
 
 // task 3
- var a = prompt();
+ var a = prompt('Последовательность Хэеса');
  var x = a;
  var b;
 	for ( b = 0;  x > 1; b++) {
